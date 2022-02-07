@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 
 def main(word: str) -> None:
 
-    logger.info(f"======= '{word}' から視聴回数順に 50件の動画を取得します。 =======")
+    logger.info(f"======= '{word}' というワードから視聴回数順に 50件取得します。 =======")
     logger.info("======= START =======")
 
     ##############################
